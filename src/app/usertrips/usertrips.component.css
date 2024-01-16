@@ -1,0 +1,26 @@
+.container{
+    position: absolute;
+    top: 120px;
+    left: 300px;
+}
+.table{
+    width: 500px;
+    text-align: center;
+    margin-left: 85px;
+}
+.tourdate{
+    color: blue;
+}
+
+@media (min-width: 1200px) {
+    h4, .h4 {
+        font-size: 1.5rem;
+        margin-left: 83px;
+    }
+}
+
+.table th, .table td {
+    border: 1px solid #117eec;
+    padding: 8px;
+    text-align: left;
+  }
